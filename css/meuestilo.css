@@ -80,6 +80,18 @@ ESTEJAM ZERADOS E LIVRES DE ATRIBUTOS PADRÕES DO NAVEGADOR =====*/
     height: 250px;
     background-color: green;
 }
+.jedi{
+   display: block;
+   position:relative;
+   top: 120px;
+   left: 700px;
+   width:180px;
+   height:180px;
+   background-image:url("../img/jediorder.png");
+   background-size: cover;
+   animation-duration: 30s;
+   animation-name: force;
+}
 .father{
    display: block;
    position:relative;
@@ -95,6 +107,14 @@ ESTEJAM ZERADOS E LIVRES DE ATRIBUTOS PADRÕES DO NAVEGADOR =====*/
 }
 
 @keyframes fatherin {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity:1;
+    }
+  }
+  @keyframes force {
     from {
       opacity: 0;
     }
