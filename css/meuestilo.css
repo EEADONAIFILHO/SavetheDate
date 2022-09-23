@@ -1,5 +1,6 @@
 /* ===== ESTE BLOCO FAZ UM RESET, OU SEJA GARANTE QUE ALGUNS ATRIBUTOS
 ESTEJAM ZERADOS E LIVRES DE ATRIBUTOS PADRÕES DO NAVEGADOR =====*/
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -7,24 +8,97 @@ ESTEJAM ZERADOS E LIVRES DE ATRIBUTOS PADRÕES DO NAVEGADOR =====*/
     list-style: none;
     border: 0;
     text-decoration: none;
+    /*/overflow: hidden;*/
   } 
+  p{
+    color:white;
+    font-family: 'Bowlby One SC', cursive;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.nome {
+    display:block;
+    margin-top: 45%;
+    font-size: 85px;
+    text-align: right;
+  }
+.sobrenome {
+    margin-left:20%;
+    display:block;
+    font-size: 25px;
+    text-align: center;
+  }
+  .date{
+    font-size: 85px;
+    text-align: center;
+    margin-top: 40%;
+    color:yellow;
+    text-shadow: 10px 10px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+   }
 .bandeira{
-    width: 600px;
-    height:550px;
-    background-color: black;
+    width: 1000px;
+    height:600px;
+    background-color: gray;
+    
 }
 .primeiracor{
-    width:300px;
-    height: 150px;
+    display: block;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:550px;
+    height:350px;
     background:red;
 }
 .segundacor{
-    width:300px;
-    height:550px;
+    display: block;
+    position:absolute;
+    top:0px;
+    left:550px;
+    width:450px;
+    height:600px;
     background: blue;
 }
 .terceiracor{
-    width: 300px;
-    height: 150px;
+    display: block;
+    position:absolute;
+    top:350px;
+    left:0px;
+    width: 550px;
+    height: 250px;
     background-color: green;
 }
+.father{
+   display: block;
+   position:relative;
+   top: 20px;
+   left: 180px;
+   width:280px;
+   height:250px;
+   background-image:url("../img/vader.png");
+   background-size: cover;
+   animation-duration: 4s;
+   animation-name: fatherin;
+   animation-iteration-count: infinite;
+}
+
+@keyframes fatherin {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity:1;
+    }
+  }
