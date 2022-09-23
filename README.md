@@ -3,5 +3,7 @@ Exercício exemplo criando uma logo em forma de bandeira para demonstrar as poss
 
 Como um Bônus foram colocados algumas animações criadas 100% em CSS....
 
+# 🗡🗡🗡🗡⚔⚔⚔⚔⚔🗡🗡🗡🗡⚔⚔⚔⚔⚔🗡🗡🗡🗡⚔⚔⚔⚔⚔🗡🗡🗡🗡⚔⚔⚔⚔⚔🗡🗡🗡🗡⚔⚔⚔⚔⚔🗡🗡🗡🗡⚔⚔⚔⚔⚔🗡🗡🗡🗡⚔⚔⚔⚔⚔🗡🗡🗡🗡⚔⚔⚔⚔⚔🗡🗡🗡🗡⚔⚔⚔⚔⚔🗡🗡🗡🗡⚔⚔⚔⚔⚔🗡🗡
 
-![alt text](github.com/Nfelizola/SavetheDate/blob/main/img/ordem_jedi_01.jpg)
+
+![alt text](https://github.com/Nfelizola/SavetheDate/blob/main/img/ordem_jedi_01.jpg)
